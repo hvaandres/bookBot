@@ -15,7 +15,8 @@ def main():
 # Create a for loop that will iterate through each word 
 # See how many times you find the same letter [A..Z]
 # Print how many times it found it
-# Use isalpha() to orginize your findings 
+# Use isalpha() to orginize your findings
+ 
     for item in chars_sorted_list:
         if not item["char"].isalpha():
             continue
